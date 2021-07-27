@@ -3,7 +3,7 @@
 function App() {
   return (
     <>
-    <h1>wassap nigg</h1></>
+    <h1>wassap dog</h1></>
   );
 }
 
