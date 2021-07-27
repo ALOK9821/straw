@@ -3,7 +3,8 @@
 function App() {
   return (
     <>
-    <h1>wassap nigg</h1></>
+          <h1>new project initialized</h1>
+    </>
   );
 }
 
