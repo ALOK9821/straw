@@ -7,7 +7,7 @@ export default function Header() {
 
   function menus() {
     cnt++;
-    console.log("hello vishal");
+    // console.log("hello vishal");
     if (cnt > 1) {
       if (cnt % 2 === 1 && window.innerWidth <= 1000) {
         document.getElementById("list1").style.display = "block";
