@@ -1,9 +1,9 @@
 
-
+import './Styles/sass files/navbar.scss'
 function App() {
   return (
     <>
-          <h1>new project initialized</h1>
+         <h1>folder structure updated for now</h1>
     </>
   );
 }
