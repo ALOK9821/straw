@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
+import "../../Styles/sass files/navbar.scss";
+const navbar = () => {
+  return (
+    <div>
+      <h1>this is the heading</h1>
+    </div>
+  );
+};
 
-const heading = () => {
-    return (
-        <div>
-            <h1>this is heading</h1>
-        </div>
-    )
-}
-
-export default heading
+export default navbar;

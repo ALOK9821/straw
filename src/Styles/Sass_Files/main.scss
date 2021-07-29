@@ -1,63 +1,107 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: black;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
 .head {
-    /* background-color: black; */
-    height: 8vh;
-    color: white;
+  /* background-color: black; */
+  height: 12%;
+  color: white;
+  position: sticky;
+  top: 0%;
+  border-bottom: 2px solid white;
 }
 
 .list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-right: 10%;
-    margin-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-top: 1%;
 }
 
 .category {
-    list-style: none;
-    padding: 20px;
+  list-style: none;
+  padding: 20px;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .category:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+
+  a {
     background-color: white;
     color: black;
-    border-radius: 10px;
+  }
 }
 
 .btn {
-    background-color: white;
-    color: black;
-    font-weight: 500;
-    width: 10%;
-    border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  width: 10%;
+  border-radius: 10px;
 }
 
 .menu {
-    height: 5%;
-    width: 5%;
-    padding: 10px;
-    display: none;
+  height: 5%;
+  width: 5%;
+  padding: 10px;
+  opacity: 0;
+  display: none;
 }
 
-.phone {
-    background-color: red;
+.list1 {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .category1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .getstart {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+  }
+
+  .btn1 {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 20%;
+    border-radius: 6px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .list {
-        li, button {
-            display: none;
-        }
+  .list {
+    li,
+    button {
+      display: none;
     }
-    
-    .menu {
-        display: block;
-        margin-right: -10%;
-    }
+  }
 
+  .menu {
+    display: block;
+    opacity: 1;
+    margin-right: -5%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .list1 {
+    display: none;
+  }
 }
