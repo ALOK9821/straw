@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.head {
+    /* background-color: black; */
+    height: 8vh;
+    color: white;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.category {
+    list-style: none;
+    padding: 20px;
+}
+
+.category:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.menu {
+    height: 5%;
+    width: 5%;
+    padding: 10px;
+    display: none;
+}
+
+.phone {
+    background-color: red;
+}
+
+@media screen and (max-width: 1000px) {
+    .list {
+        li, button {
+            display: none;
+        }
+    }
+    
+    .menu {
+        display: block;
+        margin-right: -10%;
+    }
+
+}
