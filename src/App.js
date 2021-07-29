@@ -1,5 +1,5 @@
 
-
+import './Styles/sass files/navbar.scss'
 function App() {
   return (
     <>
